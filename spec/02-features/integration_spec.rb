@@ -1,4 +1,4 @@
-feature "Integration Test", js: :true  do
+feature "Integration Test", js: true  do
   before(:each) do
     visit "/"
   end
