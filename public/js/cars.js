@@ -16,12 +16,12 @@ function formatCars(cars) {
   html += "</div>"
   return html;
 }
-
+/////
 function addCarsToDOM(cars) {
   var carsHTML = formatCars(cars);
   $("#cars").append(carsHTML);
 }
-
+//////
 function fetchJSON() {
   var url = baseUrl + pageNumber + "/3";
   pageNumber += 1;
